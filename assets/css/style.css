@@ -689,21 +689,22 @@ section {
 
 .counts .cta {
     background-color: #0477B7;
+    background-image: url("../img/Group\ 1938.png");
     border-radius: 20px;
 }
 
 .counts .cta span {
-    font-size: 62px;
-    color: #fff;
+    font-size: 38px;
+    color: rgb(250, 199, 33);
 }
 
 .counts .counters p {
     padding: 0;
     margin: 0 0 20px 0;
     font-family: "Raleway", sans-serif;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 600;
-    color: #37423b;
+    color: #fff;
 }
 
 
@@ -720,7 +721,7 @@ section {
 
 .why-us .content h3 {
     font-weight: 700;
-    font-size: 120px;
+    font-size: 72px;
     margin-bottom: 30px;
     color: #10212b;
 }
@@ -1121,7 +1122,7 @@ section {
     display: block;
     width: 60px;
     height: 1px;
-    background: #5fcf80;
+    background: #0477B7;
     bottom: 0;
     left: 0;
 }
@@ -1148,10 +1149,19 @@ section {
     color: #657a6d;
 }
 
+.row .detail-img img {
+    border-radius: 18px;
+    box-shadow: 2px 2px 20px 6px rgba(173, 216, 230, 0.39);
+}
+
 
 /*--------------------------------------------------------------
 # Cource Details Tabs
 --------------------------------------------------------------*/
+
+.course-details {
+    padding-top: 8rem;
+}
 
 .cource-details-tabs {
     overflow: hidden;
@@ -1178,8 +1188,8 @@ section {
 }
 
 .cource-details-tabs .nav-link.active {
-    color: #5fcf80;
-    border-color: #5fcf80;
+    color: #0477B7;
+    border-color: #0477B7;
 }
 
 .cource-details-tabs .tab-pane.active {
@@ -1201,6 +1211,11 @@ section {
     margin-bottom: 0;
 }
 
+.cource-details-tabs .tab-content img {
+    border-radius: 18px;
+    box-shadow: 2px 2px 20px 6px lightblue;
+}
+
 @media (max-width: 992px) {
     .cource-details-tabs .nav-link {
         border: 0;
@@ -1208,7 +1223,7 @@ section {
     }
     .cource-details-tabs .nav-link.active {
         color: #fff;
-        background: #5fcf80;
+        background: #0477B7;
     }
 }
 
