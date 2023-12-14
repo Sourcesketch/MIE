@@ -47,7 +47,7 @@ h6 {
     right: 15px;
     bottom: 15px;
     z-index: 996;
-    background: #5fcf80;
+    background: #0477B7;
     width: 40px;
     height: 40px;
     border-radius: 50px;
@@ -468,7 +468,7 @@ h6 {
 
 #hero:before {
     content: "";
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.1);
     position: absolute;
     bottom: 0;
     top: 0;
@@ -491,12 +491,12 @@ h6 {
     font-size: 48px;
     font-weight: 700;
     line-height: 56px;
-    color: #fff;
+    color: #0b203b;
     font-family: "Poppins", sans-serif;
 }
 
 #hero h2 {
-    color: #eee;
+    color: #494949;
     margin: 10px 0 0 0;
     font-size: 24px;
 }
@@ -511,13 +511,15 @@ h6 {
     border-radius: 50px;
     transition: 0.5s;
     margin-top: 30px;
-    border: 2px solid #fff;
-    color: #fff;
+    border: 2px solid #0b203b;
+    color: #0b203b;
 }
 
 #hero .btn-get-started:hover {
     background: #0477B7;
     border: 2px solid #0477B7;
+    color: #fff;
+    padding: 10px 40px;
 }
 
 @media (min-width: 1024px) {
@@ -554,12 +556,20 @@ section {
     background-color: #eff9ff;
 }
 
+.section-bg-uk {
+    background-color: #ffefef;
+}
+
 .section-bg-y {
     background-color: #fff4e6;
 }
 
 .section-title {
     padding-bottom: 40px;
+    background-image: url("../img/section-bg.jpg");
+    padding: 30px;
+    width: 100%;
+    border-radius: 18px;
 }
 
 .section-title h2 {
@@ -570,7 +580,7 @@ section {
     margin: 0 0 5px 0;
     letter-spacing: 2px;
     text-transform: uppercase;
-    color: #aaaaaa;
+    color: #2e2e2e;
     font-family: "Poppins", sans-serif;
 }
 
@@ -579,7 +589,7 @@ section {
     width: 120px;
     height: 1px;
     display: inline-block;
-    background: #9ae1af;
+    background: #0b203b;
     margin: 4px 10px;
 }
 
@@ -590,8 +600,53 @@ section {
     font-weight: 700;
     text-transform: uppercase;
     font-family: "Poppins", sans-serif;
-    color: #37423b;
+    color: #0477B7;
 }
+
+
+/* UK banner */
+
+.section-uk {
+    padding-bottom: 40px;
+    background-image: url("../img/section-uk.jpg");
+    padding: 30px;
+    width: 100%;
+    border-radius: 18px;
+}
+
+.section-uk h2 {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0;
+    line-height: 1px;
+    margin: 0 0 5px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #2e2e2e;
+    font-family: "Poppins", sans-serif;
+}
+
+.section-uk h2::after {
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background: #0b203b;
+    margin: 4px 10px;
+}
+
+.section-uk p {
+    margin: 0;
+    margin: 0;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #b70404;
+}
+
+
+/* ---------- */
 
 .breadcrumbs {
     margin-top: 73px;
@@ -704,7 +759,7 @@ section {
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 600;
-    color: #fff;
+    color: #000;
 }
 
 
@@ -895,7 +950,7 @@ section {
 
 .courses .course-content h4 {
     font-size: 14px;
-    background: #5fcf80;
+    background: #0477B7;
     padding: 7px 14px;
     color: #fff;
     margin: 0;
@@ -1128,14 +1183,16 @@ section {
 }
 
 .course-details .course-info {
-    background: #f6f7f6;
-    padding: 10px 15px;
+    background: none;
     margin-bottom: 15px;
+    border-bottom: 1px solid #aaa;
 }
 
 .course-details .course-info h5 {
     font-weight: 400;
-    font-size: 16px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #0d2938;
     margin: 0;
     font-family: "Poppins", sans-serif;
 }
@@ -1146,7 +1203,11 @@ section {
 }
 
 .course-details .course-info a {
-    color: #657a6d;
+    color: #0d2938;
+}
+
+.course-details .course-info a:hover {
+    color: #0477B7;
 }
 
 .row .detail-img img {
@@ -1420,7 +1481,7 @@ section {
 --------------------------------------------------------------*/
 
 .contact {
-    padding-top: 5px;
+    padding-top: 5rem;
 }
 
 .contact .info {
@@ -1430,11 +1491,11 @@ section {
 
 .contact .info i {
     font-size: 20px;
-    color: #5fcf80;
+    color: #5f86cf;
     float: left;
     width: 44px;
     height: 44px;
-    background: #ecf9f0;
+    background: #ecf3f9;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1581,6 +1642,15 @@ section {
     margin-bottom: 30px;
 }
 
+#footer .footer-top .footer-contact h3 {
+    font-size: 22px;
+    color: #0477B7;
+    margin: 0 0 30px 0;
+    padding: 2px 0 2px 0;
+    line-height: 1;
+    font-weight: 700;
+}
+
 #footer .footer-top .footer-contact h4 {
     font-size: 22px;
     margin: 0 0 30px 0;
@@ -1617,7 +1687,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
     padding-right: 2px;
-    color: #5fcf80;
+    color: #0477B7;
     font-size: 18px;
     line-height: 1;
 }
