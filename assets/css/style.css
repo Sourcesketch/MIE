@@ -611,7 +611,7 @@ section {
     background-image: url("../img/section-uk.jpg");
     padding: 30px;
     width: 100%;
-    border-radius: 18px;
+    border-radius: 18px 18px 0 0;
 }
 
 .section-uk h2 {
@@ -643,6 +643,51 @@ section {
     text-transform: uppercase;
     font-family: "Poppins", sans-serif;
     color: #b70404;
+}
+
+
+/* ---------- */
+
+
+/* USA banner */
+
+.section-usa {
+    padding-bottom: 40px;
+    background-image: url("../img/section-usa.jpg");
+    padding: 30px;
+    width: 100%;
+    border-radius: 18px 18px 0 0;
+}
+
+.section-usa h2 {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0;
+    line-height: 1px;
+    margin: 0 0 5px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #2e2e2e;
+    font-family: "Poppins", sans-serif;
+}
+
+.section-usa h2::after {
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background: #5f8bc4;
+    margin: 4px 10px;
+}
+
+.section-usa p {
+    margin: 0;
+    margin: 0;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #041fb7;
 }
 
 
@@ -753,13 +798,39 @@ section {
     color: rgb(250, 199, 33);
 }
 
+.counts .cta-btn {
+    margin-left: 22px;
+    background: #fff;
+    border: 2px solid #0477B7;
+    color: #0477B7;
+    border-radius: 50px;
+    padding: 8px 25px;
+    white-space: nowrap;
+    transition: 0.3s;
+    font-size: 14px;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.cta-btn:hover {
+    background: rgb(250, 199, 33);
+    color: #000;
+}
+
+@media (max-width: 768px) {
+    .cta-btn {
+        margin: 0 15px 0 0;
+        padding: 6px 18px;
+    }
+}
+
 .counts .counters p {
     padding: 0;
     margin: 0 0 20px 0;
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 600;
-    color: #000;
+    color: #fff;
 }
 
 
@@ -1211,8 +1282,9 @@ section {
 }
 
 .row .detail-img img {
-    border-radius: 18px;
+    border-radius: 0 0 18px 18px;
     box-shadow: 2px 2px 20px 6px rgba(173, 216, 230, 0.39);
+    width: 100%;
 }
 
 

@@ -71,11 +71,12 @@ def send_email():
         name = request.form['name']
         email = request.form['email']
         recipients = ['mh525694@gmail.com']  # Replace with the recipient's email address
-        # phone = request.form['phone']
+        phone = request.form['phone']
         message = request.form['message']
-        # city = request.form['city']
-        print(name,email,message)
-        message_body = render_template('email.html', name=name, message=message, email=email)  # You can use templates
+        city = request.form['city']
+        degree = request.form['degree']
+        print(name,email,message,city,degree)
+        message_body = render_template('email.html', name=name, message=message, email=email, phone=phone, city=city, degree=degree)  # You can use templates
 
         message = Message(subject=subject, recipients=recipients, body=message_body)
 
