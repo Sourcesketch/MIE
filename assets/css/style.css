@@ -693,6 +693,186 @@ section {
 
 /* ---------- */
 
+
+/* CANADA banner */
+
+.section-canada {
+    padding-bottom: 40px;
+    background-image: url("../img/section-canada.jpg");
+    padding: 30px;
+    width: 100%;
+    border-radius: 18px 18px 0 0;
+}
+
+.section-canada h2 {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0;
+    line-height: 1px;
+    margin: 0 0 5px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #424242;
+    font-family: "Poppins", sans-serif;
+}
+
+.section-canada h2::after {
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background: #5f8bc4;
+    margin: 4px 10px;
+}
+
+.section-canada p {
+    margin: 0;
+    margin: 0;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #d10000;
+}
+
+
+/* ---------- */
+
+
+/* Australia banner */
+
+.section-aus {
+    padding-bottom: 40px;
+    background-image: url("../img/section-aus.jpg");
+    padding: 30px;
+    width: 100%;
+    border-radius: 18px 18px 0 0;
+}
+
+.section-aus h2 {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0;
+    line-height: 1px;
+    margin: 0 0 5px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #98a2b1;
+    font-family: "Poppins", sans-serif;
+}
+
+.section-aus h2::after {
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background: #98a2b1;
+    margin: 4px 10px;
+}
+
+.section-aus p {
+    margin: 0;
+    margin: 0;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #ffffff;
+}
+
+
+/* ---------- */
+
+
+/* Europe banner */
+
+.section-euro {
+    padding-bottom: 40px;
+    background-image: url("../img/section-euro.jpg");
+    padding: 30px;
+    width: 100%;
+    border-radius: 18px 18px 0 0;
+}
+
+.section-euro h2 {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0;
+    line-height: 1px;
+    margin: 0 0 5px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #98a2b1;
+    font-family: "Poppins", sans-serif;
+}
+
+.section-euro h2::after {
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background: #98a2b1;
+    margin: 4px 10px;
+}
+
+.section-euro p {
+    margin: 0;
+    margin: 0;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #ffffff;
+}
+
+
+/* ---------- */
+
+
+/* Europe banner */
+
+.section-mala {
+    padding-bottom: 40px;
+    background-image: url("../img/section-mala.jpg");
+    padding: 30px;
+    width: 100%;
+    border-radius: 18px 18px 0 0;
+}
+
+.section-mala h2 {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0;
+    line-height: 1px;
+    margin: 0 0 5px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #98a2b1;
+    font-family: "Poppins", sans-serif;
+}
+
+.section-mala h2::after {
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background: #98a2b1;
+    margin: 4px 10px;
+}
+
+.section-mala p {
+    margin: 0;
+    margin: 0;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #ffffff;
+}
+
+
+/* ---------- */
+
 .breadcrumbs {
     margin-top: 73px;
     text-align: center;
