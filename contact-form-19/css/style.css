@@ -1,9 +1,24 @@
 body {
     font-family: "Roboto", sans-serif;
-    background-color: #fff;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
     line-height: 1.9;
     color: #8c8c8c21;
     position: relative;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 h1,
@@ -46,12 +61,15 @@ a:hover {
     font-weight: 900;
 }
 
+.form {
+    border-radius: 18px;
+}
+
 .form-control {
     border: none;
     border-bottom: 1px solid #ccc;
     padding-left: 0;
     padding-right: 0;
-    border-radius: 0;
     background: none;
 }
 
@@ -122,7 +140,6 @@ a:hover {
 .contact-wrap {
     -webkit-box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.05);
     box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.05);
-    border: 1px solid #efefef;
 }
 
 .contact-wrap .col-form-label {
