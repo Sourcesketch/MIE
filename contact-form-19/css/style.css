@@ -130,7 +130,12 @@ a:hover {
     color: #fff;
 }
 
-.btn:active,
+.btn:active {
+    color: #fff !important;
+    background: #052435 !important;
+    border: none;
+}
+
 .btn:focus {
     outline: none;
     -webkit-box-shadow: none;

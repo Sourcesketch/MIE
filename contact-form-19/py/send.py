@@ -67,7 +67,7 @@ def index():
 def send_email():
     # Create a message
     if request.method == 'POST':
-        subject = "Hello from Flask-Mail"
+        subject = request.form['name']
         name = request.form['name']
         email = request.form['email']
         recipients = ['mh525694@gmail.com']  # Replace with the recipient's email address
@@ -75,8 +75,11 @@ def send_email():
         message = request.form['message']
         city = request.form['city']
         degree = request.form['degree']
-        print(name,email,message,city,degree)
-        message_body = render_template('email.html', name=name, message=message, email=email, phone=phone, city=city, degree=degree)  # You can use templates
+        gpa = request.form['gpa']
+        country = request.form['country']
+        course = request.form['course']
+        print(name,email,phone,message,city,degree,gpa,country,course)
+        message_body = render_template('email.html', name=name, message=message, email=email, phone=phone, city=city, degree=degree, gpa=gpa, country=country, course=course)  # You can use templates
 
         message = Message(subject=subject, recipients=recipients, body=message_body)
 

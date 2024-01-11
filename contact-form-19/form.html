@@ -44,10 +44,13 @@
                     <li><a href="../about.html">About</a></li>
                     <li class="dropdown"><a href="../countries.html"><span>Countries</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
-                            <li><a class="active" href="../study-in-uk.html">Study in UK</a></li>
-                            <li><a href="../study-in-usa.html">Study in USA</a></li>
-                            <li><a href="../study-in-canada.html">Study in Canada</a></li>
-                            <li><a href="../study-in-austrila.html">Study in Austrila</a></li>
+                            <li><a href="study-in-uk.html">Study in UK</a></li>
+                            <li><a href="study-in-usa.html">Study in USA</a></li>
+                            <li><a href="study-in-canada.html">Study in Canada</a></li>
+                            <li><a href="study-in-austrila.html">Study in Austrila</a></li>
+                            <li><a href="study-in-eurpe.html">Study in Europe</a></li>
+                            <li><a href="study-in-malaysia.html">Study in Malaysia</a></li>
+                            <li><a href="study-in-uae.html">Study in UAE</a></li>
                         </ul>
                     </li>
 
@@ -58,7 +61,7 @@
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
             </nav>
-            <a href="form.html" class="get-started-btn">Apply Now</a>
+            <span href="form.html" class="get-started-btn-diable">Apply Now</span>
             </nav>
 
 
@@ -129,9 +132,9 @@
   <option value="United States of America">United States of America</option>
   <option value="Canada">Canada</option>
   <option value="Australia">Australia</option>
-  <option value="Hungary>">Hungary</option>
-  <option value="Turkey>">Turkey</option>
-  <option value="Other>">Other</option>
+  <option value="Hungary>">Europe</option>
+  <option value="Turkey>">Malaysia</option>
+  <option value="Other>">UAE</option>
 </select>
                                 </div>
                                 <div class="col-md-6 form-group mb-3">
@@ -150,7 +153,7 @@
                             </div>
                             <div class="row">
                                 <div class="col-md-12 form-group">
-                                    <input type="submit" value="Send Message" action="/send_email" method="post" class="btn btn-primary rounded-0 py-2 px-4">
+                                    <input type="submit" value="Send Message" action="/send_email" method="post" class="btn btn-primary rounded-5 py-2 px-4">
                                     <span class="submitting"></span>
                                 </div>
                             </div>
@@ -167,6 +170,26 @@
         </div>
 
     </div>
+
+
+
+
+
+    <!-- Vendor JS Files -->
+    <script src="../assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/vendor/aos/aos.js"></script>
+    <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="../assets/vendor/php-email-form/validate.js"></script>
+
+    <script>
+        $('#myModal').on('shown.bs.modal', function() {
+            $('#myInput').trigger('focus')
+        })
+    </script>
+
+    <!-- Template Main JS File -->
+    <script src="../assets/js/main.js"></script>
 
 
 

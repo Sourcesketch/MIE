@@ -91,7 +91,7 @@ h6 {
     position: fixed;
     top: calc(50% - 30px);
     left: calc(50% - 30px);
-    border: 6px solid #5fcf80;
+    border: 6px solid #0477B7;
     border-top-color: #fff;
     border-bottom-color: #fff;
     border-radius: 50%;
@@ -181,6 +181,19 @@ h6 {
         margin: 0 15px 0 0;
         padding: 6px 18px;
     }
+}
+
+.get-started-btn-diable {
+    margin-left: 22px;
+    background: #b8b8b8;
+    color: #000000;
+    border-radius: 50px;
+    padding: 8px 25px;
+    white-space: nowrap;
+    transition: 0.3s;
+    font-size: 14px;
+    font-weight: 600;
+    display: inline-block;
 }
 
 
@@ -829,7 +842,52 @@ section {
 /* ---------- */
 
 
-/* Europe banner */
+/* UAE banner */
+
+.section-uae {
+    padding-bottom: 40px;
+    background-image: url("../img/section-uae.jpg");
+    padding: 30px;
+    width: 100%;
+    border-radius: 18px 18px 0 0;
+}
+
+.section-uae h2 {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0;
+    line-height: 1px;
+    margin: 0 0 5px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #c2c2c2;
+    font-family: "Poppins", sans-serif;
+}
+
+.section-uae h2::after {
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background: #c2c2c2;
+    margin: 4px 10px;
+}
+
+.section-uae p {
+    margin: 0;
+    margin: 0;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #ffffff;
+}
+
+
+/* ---------- */
+
+
+/* Malaysia banner */
 
 .section-mala {
     padding-bottom: 40px;
@@ -1010,7 +1068,7 @@ section {
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 600;
-    color: #fff;
+    color: #000;
 }
 
 
