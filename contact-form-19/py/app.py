@@ -25,42 +25,7 @@ mail = Mail(app)
 def index():
     return render_template('form.html')
 
-# @app.route('/send_email', methods=['POST'])
-# def send_email():
-#     if request.method == 'POST':
-#         # Get form data
-#         name = request.form['name']
-#         email = request.form['email']
-#         phone = request.form['phone']
-#         message = request.form['message']
-#         city = request.form['city']
 
-#         # Email configuration
-#         sender_email = "your_email@example.com"
-#         receiver_email = "karkala95@gmail.com"
-
-#         # SMTP configuration (example for Gmail)
-#         smtp_server = "smtp.gmail.com"
-#         smtp_port = 587
-#         smtp_username = "karkala95@gmail.com"
-#         smtp_password = "oehp istd amri hzja"
-
-#         # Create message
-#         msg = MIMEMultipart()
-#         msg["From"] = sender_email
-#         msg["To"] = receiver_email
-#         msg["Subject"] = subject
-#         msg.attach(MIMEText(f"Name: {name}\nEmail: {email}\n\n{message}", "plain"))
-
-#         # Connect to SMTP server and send email
-#         with smtplib.SMTP(smtp_server, smtp_port) as server:
-#             server.starttls()
-#             server.login(smtp_username, smtp_password)
-#             server.sendmail(sender_email, receiver_email, msg.as_string())
-
-#         return "Email sent successfully"
-    
-#     # send email
     
 
 @app.route('/send_email', methods=['POST'])
@@ -70,7 +35,7 @@ def send_email():
         subject = request.form['name']
         name = request.form['name']
         email = request.form['email']
-        recipients = ['mh525694@gmail.com']  # Replace with the recipient's email address
+        recipients = ['moosa@mieconsultants.com']  # Replace with the recipient's email address
         phone = request.form['phone']
         message = request.form['message']
         city = request.form['city']
